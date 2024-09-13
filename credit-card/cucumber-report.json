@@ -1,0 +1,369 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-credit-card-ui]-validacion-de-scenario-1;[cypresscoverage][website-credit-card-ui]-validating-header-of-credit-card",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "[CypressCoverage][website-credit-card-ui] Validating header of credit card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Login with \"00003334450\" located in \"co\" enter \"/credit-card/get-credit-card\".",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Validating text and average mileage earned",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4614000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-credit-card-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Credit%20cards",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@Credit%20cards",
+            "line": 3
+          },
+          {
+            "name": "@TEST-TS-1494",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-credit-card-ui]-validacion-de-scenario-1;[cypresscoverage][website-credit-card-ui]-filling-out-credit-card-application-form-(panama,-banitsmo)",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "[CypressCoverage][website-credit-card-ui] Filling out credit card application form (panama, banitsmo)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Login with \"00003334450\" located in \"pa\" enter \"/credit-card/get-credit-card\".",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5507000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "click on apply now banistmo and validate that the form is filled automatically",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Accept T&C and submit the form",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3206000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-credit-card-ui",
+            "line": 12
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 12
+          },
+          {
+            "name": "@AP_Credit%20cards",
+            "line": 12
+          },
+          {
+            "name": "@express",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          },
+          {
+            "name": "@Credit%20cards",
+            "line": 12
+          },
+          {
+            "name": "@TEST_TS-1159",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-credit-card-ui]-validacion-de-scenario-1;[cypresscoverage][website-credit-card-ui]-redirection-to-davivienda's-web-site-(colombia)",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "[CypressCoverage][website-credit-card-ui] Redirection to davivienda's web site (colombia)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Login with \"00003334450\" located in \"co\" enter \"/credit-card/get-credit-card\".",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Click on the davivienda option and validate the redirection to the partner website.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13906000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-credit-card-ui",
+            "line": 22
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 22
+          },
+          {
+            "name": "@AP_Credit%20cards",
+            "line": 22
+          },
+          {
+            "name": "@express",
+            "line": 22
+          },
+          {
+            "name": "@smoke",
+            "line": 22
+          },
+          {
+            "name": "@Credit%20cards",
+            "line": 22
+          },
+          {
+            "name": "@TEST_TS-1158",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-credit-card-ui]-validacion-de-scenario-1;[cypresscoverage][website-credit-card-ui]-points-to-miles-conversion-table",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "[CypressCoverage][website-credit-card-ui] Points to miles conversion table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Login with \"00003334450\" located in \"co\" enter \"/credit-card/get-credit-card\".",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Click on the sub menu points to miles",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "validate the information in the table of allies Colombia, El Salvador",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2604000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-credit-card-ui",
+            "line": 31
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 31
+          },
+          {
+            "name": "@AP_Credit%20cards",
+            "line": 31
+          },
+          {
+            "name": "@express",
+            "line": 31
+          },
+          {
+            "name": "@smoke",
+            "line": 31
+          },
+          {
+            "name": "@Credit%20cards",
+            "line": 31
+          },
+          {
+            "name": "@TEST_TS-1156",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-credit-card-ui]-validacion-de-scenario-1;[cypresscoverage][website-credit-card-ui]-landing-davivienda-elements-and-redirects",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "[CypressCoverage][website-credit-card-ui] Landing Davivienda elements and redirects",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "Login with \"00003334450\" located in \"co\" enter \"/landing/DAVIVIENDA\".",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Click on the apply now davivienda option and validate the redirection to the partner website.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6879000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-credit-card-ui",
+            "line": 41
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 41
+          },
+          {
+            "name": "@AP_Credit%20cards",
+            "line": 41
+          },
+          {
+            "name": "@express",
+            "line": 41
+          },
+          {
+            "name": "@smoke",
+            "line": 41
+          },
+          {
+            "name": "@Credit%20cards",
+            "line": 41
+          },
+          {
+            "name": "@TEST_TS-1160",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-credit-card-ui]-validacion-de-scenario-1",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-credit-card-ui] Validacion de scenario 1",
+    "tags": [],
+    "uri": "cypress\\e2e\\CreditCard-Escenarios.feature"
+  }
+]

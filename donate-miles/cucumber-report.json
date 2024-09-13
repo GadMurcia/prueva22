@@ -1,0 +1,532 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-donate-miles-ui]-escenarios-de-donacion-de-millas;[cypresscoverage][website-donate-miles-ui]-validacion-visual-de-pagina-de-donacion",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "[CypressCoverage][website-donate-miles-ui] Validacion visual de pagina de donacion",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Log in with \"00000898951\" enter \"/donate-miles\" and select \"en\".",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Validating visual elements",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Certifying FAQ",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Validating T&C",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-donate-miles-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@AP_Donate%20miles",
+            "line": 3
+          },
+          {
+            "name": "@Donate%20miles",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1361",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-donate-miles-ui]-escenarios-de-donacion-de-millas",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-donate-miles-ui] Escenarios de Donacion de millas",
+    "tags": [],
+    "uri": "cypress\\e2e\\DonacionMillas-Escenario.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-donate-miles-ui]-escenarios-de-donacion-de-millas;[cypresscoverage][website-donate-miles-ui]-validacion-visual-elementos-av",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "[CypressCoverage][website-donate-miles-ui] Validacion visual elementos AV",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Log in with \"95794380205\" enter \"/donate-miles\" and select \"en\".",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Validating visual elements",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Certifying FAQ",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Validating T&C",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2294000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-donate-miles-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Donate%20miles",
+            "line": 3
+          },
+          {
+            "name": "@AP_Donate%20miles",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1364",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-donate-miles-ui]-escenarios-de-donacion-de-millas;[cypresscoverage][website-donate-miles-ui]-usuario-logueado-para-donar-sus-millas",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "[CypressCoverage][website-donate-miles-ui] Usuario logueado para donar sus millas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "un miembro que ha iniciado sesión con la \"95794380205\" LM",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "el socio este en la \"/miles\" de millas validara el balance de su cuenta",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9652000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "el socio se dirigue a la \"/donate-miles\" donar millas",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "se visualizara el texto ¡Dona tus millas y cambia vidas!",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "de click en el boton donar ahora",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "te redirija a la pagina siguiente validaras el texto ¿Cuántas millas te gustaría donar?",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "haga click en el radio button para seleccionar la cantidad de millas a donar",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "marcara el checkbox para aceptar los terminos y condiciones",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "halla seleccionado dara click en el boton donar ahora",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "validaremos texto del detalle de la donacion con los agradecimientos ¡Gracias por tu donación!",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "se detallara la cantidad que dono el usuario y el nuevo balance 100",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13537000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-donate-miles-ui",
+            "line": 14
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 14
+          },
+          {
+            "name": "@express",
+            "line": 14
+          },
+          {
+            "name": "@Donate%20miles",
+            "line": 14
+          },
+          {
+            "name": "@AP_Donate%20miles",
+            "line": 14
+          },
+          {
+            "name": "@TEST_TS-1363",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-donate-miles-ui]-escenarios-de-donacion-de-millas;[cypresscoverage][website-donate-miles-ui]-usuario-logueado-elige-otro-monto-de-millas-a-donar",
+        "keyword": "Scenario Outline",
+        "line": 46,
+        "name": "[CypressCoverage][website-donate-miles-ui] Usuario logueado elige otro monto de millas a donar",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "que el socio inicie sesion con \"95794380205\" LM e ingresa a la \"/donate-miles\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "se visualizara el balance del socio actual",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "tendremos como titulo ¡Dona tus millas y cambia vidas!",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "daremos click en el boton donar ahora",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "el socio tendra la opcion de poder elegir cuantas millas quiere donar y dara click",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "coloque una cantidad de 10000000 o mas millas el socio vera un mensaje que ha superado el minimo de millas a donar",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "si coloca una cantidad menor a 10000 millas al socio se le habilitara el checkbox y el boton para donar",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "el socio recibira sus agredecimientos con el texto ¡Gracias por tu donación!",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "se detallara la cantidad que dono el usuario y el nuevo balance 300",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7296000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-donate-miles-ui",
+            "line": 32
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 32
+          },
+          {
+            "name": "@express",
+            "line": 32
+          },
+          {
+            "name": "@Donate%20miles",
+            "line": 32
+          },
+          {
+            "name": "@AP_Donate%20miles",
+            "line": 32
+          },
+          {
+            "name": "@TEST_TS-1365",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-donate-miles-ui]-escenarios-de-donacion-de-millas",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-donate-miles-ui] Escenarios de Donacion de millas",
+    "tags": [],
+    "uri": "cypress\\e2e\\DonacionMillas.feature"
+  }
+]
