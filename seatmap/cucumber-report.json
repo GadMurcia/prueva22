@@ -1,0 +1,321 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "seatmap-with-benefits-scenarios;[cypresscoverage][website-seatmap-ui]-seatmap-with-benefits",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "[CypressCoverage][website-seatmap-ui] Seatmap with benefits",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "visit flight upgrades section to choose my seats premium",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I look for my flight reservation and select in \"4GBRSX\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I select a premium seat in the flight to",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "pending",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select a premium seat in the flight from",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I confirm my seat selections",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-seatmap-ui",
+            "line": 5
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 5
+          },
+          {
+            "name": "@AP_Seat%20map",
+            "line": 5
+          },
+          {
+            "name": "@AG_MemberDirect",
+            "line": 5
+          },
+          {
+            "name": "@SeatmapWithMoney",
+            "line": 5
+          },
+          {
+            "name": "@express",
+            "line": 5
+          },
+          {
+            "name": "@Seat%20map",
+            "line": 5
+          },
+          {
+            "name": "@TEST_TS-1531",
+            "line": 5
+          },
+          {
+            "name": "@pending",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "seatmap-with-benefits-scenarios",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Seatmap with benefits scenarios",
+    "tags": [],
+    "uri": "cypress\\e2e\\seatmap-benefits.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "seatmap-scenarios-with-money;[cypresscoverage][website-seatmap-ui]-seatmap-with-money",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "[CypressCoverage][website-seatmap-ui] Seatmap with money",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a logged-in \"05645334100\" and navigates to the travel section of the website",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "select a \"One-Way\" and the from flight as \"SAL\" and the to flight as \"MIA\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "select a flight for the \"One-Way\" in the \"Sep\" \"17\" and \"Sep\" \"24\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "select number of passengers \"1\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "we search for the flight",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7859000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "you select the flight details for \"One-Way\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the flexible payment section loads, we won't scroll the bar",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7918000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "We enter the contact and traveler information \"788954645\" for the \"El Salvador (+503)\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I wait for the seat map to load I intercept the minimumprice service",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I validate the seatmap modal \"SAL\" and \"MIA\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "we select a seat after to click in select a seat button \"One-Way\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-seatmap-ui",
+            "line": 5
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 5
+          },
+          {
+            "name": "@AP_Seat%20map",
+            "line": 5
+          },
+          {
+            "name": "@AG_MemberDirect",
+            "line": 5
+          },
+          {
+            "name": "@SeatmapWithMoney",
+            "line": 5
+          },
+          {
+            "name": "@express",
+            "line": 5
+          },
+          {
+            "name": "@Seat%20map",
+            "line": 5
+          },
+          {
+            "name": "@TEST_TS-1308",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "seatmap-scenarios-with-money",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Seatmap scenarios with money",
+    "tags": [],
+    "uri": "cypress\\e2e\\seatmap.feature"
+  }
+]
