@@ -1,0 +1,4397 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validacion-de-scenario-outline-2;[cypresscoverage][website-enrollment-ui]successfull-enrollment-under-18-years-of-age",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "[CypressCoverage][website-enrollment-ui]Successfull enrollment under 18 years of age",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Try to enroll a new account with email \"random\" and \"Nacho\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16826000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "use a generic password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "click on next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "show the second stage screen",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "fill the field firstname \"Nacho\" and lastname \"Fernandez\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2081000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "and birth date \"11\",\"27\",\"2\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Select the terms and conditions checkbox",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "click on enroll to lifemiles button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "The user was successfully enrolled",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Must be redirected to login section",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Type the generic password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on the login button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Must be redirect to overview section on lifemiles.com",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24788000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1093",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validacion-de-scenario-outline-2;[cypresscoverage][website-enrollment-ui]-existing-enrollment",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "[CypressCoverage][website-enrollment-ui] Existing enrollment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "Try to enroll a new account with email \"\" and \"Alvaro\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "use a generic password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "click on next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "show the second stage screen",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "fill the field firstname \"Alvaro\" and lastname \"Morata\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1680000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "and birth date \"8\",\"8\",\"8\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Select the terms and conditions checkbox",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "click on enroll to lifemiles button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Validate the error that appear is for existing user and match with text \"El correo electrónico ya se encuentra asociado a una cuenta lifemiles\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 965000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 23
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 23
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 23
+          },
+          {
+            "name": "@express",
+            "line": 23
+          },
+          {
+            "name": "@Enrollment",
+            "line": 23
+          },
+          {
+            "name": "@TEST_TS-1087",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validacion-de-scenario-outline-2;[cypresscoverage][website-enrollment-ui]enrollemnt-minor-2-years",
+        "keyword": "Scenario Outline",
+        "line": 51,
+        "name": "[CypressCoverage][website-enrollment-ui]Enrollemnt Minor 2 years",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "Try to enroll a new account with email \"<email>\" and \"Daniel\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "use a generic password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "click on next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2889000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "show the second stage screen",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "fill the field firstname \"Daniel\" and lastname \"Carvajal\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "use birthdate minor 2 years",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "must appear error label \"Solo personas mayores de 2 años pueden afiliarse a LifeMiles\" for invalid birthdate",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 39
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 39
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 39
+          },
+          {
+            "name": "@express",
+            "line": 39
+          },
+          {
+            "name": "@Enrollment",
+            "line": 39
+          },
+          {
+            "name": "@TEST_TS-1095",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validacion-de-scenario-outline-2;[cypresscoverage][website-enrollment-ui]-validating-terms-and-conditions-text-for-enrollment-in-countries-under-gdpr-regulation",
+        "keyword": "Scenario Outline",
+        "line": 65,
+        "name": "[CypressCoverage][website-enrollment-ui] Validating terms and conditions text for enrollment in countries under GDPR regulation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "Try to enroll a new account with email \"random\" and \"Jesus\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "use a generic password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "click on next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "show the second stage screen",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "fill the field firstname \"Jesus\" and lastname \"Navas\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "and birth date \"11\",\"27\",\"8\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1510000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "Validating terms and conditions text \"Doy mi consentimiento para ser contactado a través de correo y otros medios electrónicos para recibir los siguientes tipos de comunicaciones comerciales:\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 624000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 53
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 53
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 53
+          },
+          {
+            "name": "@express",
+            "line": 53
+          },
+          {
+            "name": "@Enrollment",
+            "line": 53
+          },
+          {
+            "name": "@TEST_TS-1094",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validacion-de-scenario-outline-2;[cypresscoverage][website-enrollment-ui]-validating-that-firstname-and-lastname-text-do-not-contain-special-characters",
+        "keyword": "Scenario Outline",
+        "line": 79,
+        "name": "[CypressCoverage][website-enrollment-ui] Validating that firstname and lastname text do not contain special characters",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "Try to enroll a new account with email \"random\" and \"<firtName>\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "use a generic password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "click on next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "show the second stage screen",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "fill the field firstname \"R4ul\" and lastname \"Gonzale$\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1824000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "and birth date \"11\",\"27\",\"3\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "Validation that firstname and lastname do not accept special characters",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 67
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 67
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 67
+          },
+          {
+            "name": "@express",
+            "line": 67
+          },
+          {
+            "name": "@Enrollment",
+            "line": 67
+          },
+          {
+            "name": "@TEST_TS-1454",
+            "line": 67
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-enrollment-ui]-validacion-de-scenario-outline-2",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-enrollment-ui] Validacion de Scenario Outline 2",
+    "tags": [],
+    "uri": "cypress\\e2e\\EnrollmentLMCOM.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.;[cypresscoverage][website-enrollment-ui]-retrieve-lifemiles-number",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "[CypressCoverage][website-enrollment-ui] Retrieve LifeMiles Number",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select the option to recover my LifeMiles number in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Text of the field labels in the form is validated in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill out the form with the data associated with the account \"nomro\",\"dczobwo\",\"judrenifyi@gufum.com\",\"December\",\"17\",\"2008\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2081000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Clicks in Next button in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Validate confirmation email sent message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1274",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.;[cypresscoverage][website-enrollment-ui]-retrieve-lifemiles-number-function-with-login",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "[CypressCoverage][website-enrollment-ui] Retrieve LifeMiles Number function with login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "logging in with user \"13514993074\" and password \"iN1sQ7Eqrkxp6stu1wR41qb+lsZwRPJUqucX+nAkY7uPKW/EmM0eWxMtRx1R6Kq+3UokensjMD4pcBvYNrPoIvxzqTd/73lx99C3K1gZ5LKX7MRAoVe2yJeoIBPTmt8A3C/HgtQxI/wE9RPZb1vSYLoETBZkzb4dNT3nt8oj4jY=\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8680000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Accessing the Help Center page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "validate that the option to recover the LifeMiles number exists and click on it",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Validate that the LifeMiles number recovery form is visited.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 15
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 15
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 15
+          },
+          {
+            "name": "@express",
+            "line": 15
+          },
+          {
+            "name": "@Enrollment",
+            "line": 15
+          },
+          {
+            "name": "@TEST_TS-1281",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.;[cypresscoverage][website-enrollment-ui]-retrieve-lifemiles-number-with-a-blacklisted-account",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "[CypressCoverage][website-enrollment-ui] Retrieve LifeMiles Number with a blacklisted account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I select the option to recover my LifeMiles number in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Text of the field labels in the form is validated in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I fill out the form with the data associated with the account \"obrsfgcb\",\"rwon\",\"testenrollblack@test.com\",\"December\",\"17\",\"2005\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Clicks in Next button in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Validate the error message in language \"en\" displayed when attempting to recover the LifeMiles number",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 26
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 26
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 26
+          },
+          {
+            "name": "@express",
+            "line": 26
+          },
+          {
+            "name": "@Enrollment",
+            "line": 26
+          },
+          {
+            "name": "@TEST_TS-1282",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.;[cypresscoverage][website-enrollment-ui]-retrieve-lifemiles-number-with-a-suspended-account",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "[CypressCoverage][website-enrollment-ui] Retrieve LifeMiles Number with a suspended account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I select the option to recover my LifeMiles number in language \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Text of the field labels in the form is validated in language \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7046000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I fill out the form with the data associated with the account \"fcqwc\",\"gibs\",\"testenrollsuspend@test.com\",\"Diciembre\",\"17\",\"2008\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Clicks in Next button in language \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Validate the error message in language \"es\" displayed when attempting to recover the LifeMiles number",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 38
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 38
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 38
+          },
+          {
+            "name": "@express",
+            "line": 38
+          },
+          {
+            "name": "@Enrollment",
+            "line": 38
+          },
+          {
+            "name": "@TEST-TS-1432",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.;[cypresscoverage][website-enrollment-ui]-retrieve-lifemiles-number-with-a-email-address-that-doesn't-belong-to-a-member",
+        "keyword": "Scenario Outline",
+        "line": 60,
+        "name": "[CypressCoverage][website-enrollment-ui] Retrieve LifeMiles Number with a email address that doesn't belong to a member",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I select the option to recover my LifeMiles number in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "Text of the field labels in the form is validated in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7059000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I fill out the form with the data associated with the account \"xcfus\",\"psfairsn\",\"testenrollemail@test.com\",\"December\",\"17\",\"2008\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Clicks in Next button in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "The error message in english for an invalid email account is validated",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 50
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 50
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 50
+          },
+          {
+            "name": "@express",
+            "line": 50
+          },
+          {
+            "name": "@Enrollment",
+            "line": 50
+          },
+          {
+            "name": "@TEST_TS-1438",
+            "line": 50
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.;[cypresscoverage][website-enrollment-ui]-retrieve-lifemiles-number-function-validating-the-fields-first-name,-second-name-and-email",
+        "keyword": "Scenario Outline",
+        "line": 70,
+        "name": "[CypressCoverage][website-enrollment-ui] Retrieve LifeMiles Number function validating the fields first name, second name and email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I select the option to recover my LifeMiles number in language \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "Text of the field labels in the form is validated in language \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Valid entries for the fields first name, last name, and email are verified",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10754000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 62
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 62
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 62
+          },
+          {
+            "name": "@express",
+            "line": 62
+          },
+          {
+            "name": "@Enrollment",
+            "line": 62
+          },
+          {
+            "name": "@TEST_TS-1439",
+            "line": 62
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.;[cypresscoverage][website-enrollment-ui]-retrieve-lifemiles-number-function-validating-the-birth-date-field",
+        "keyword": "Scenario Outline",
+        "line": 80,
+        "name": "[CypressCoverage][website-enrollment-ui] Retrieve LifeMiles Number function validating the birth date field",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I select the option to recover my LifeMiles number in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "Text of the field labels in the form is validated in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "Valid entries for the date of birth fields are verified \"February\",\"25\",\"1977\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18902000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 72
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 72
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 72
+          },
+          {
+            "name": "@express",
+            "line": 72
+          },
+          {
+            "name": "@Enrollment",
+            "line": 72
+          },
+          {
+            "name": "@TEST_TS-1286",
+            "line": 72
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-enrollment-ui]-validating-account-recovery-scenarios.",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-enrollment-ui] Validating account recovery scenarios.",
+    "tags": [],
+    "uri": "cypress\\e2e\\RecuperacionNumLM.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-for-reset-password-scenario;[cypresscoverage][website-enrollment-ui]-reset-password-for-a-account-without-transactions-in-english",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "[CypressCoverage][website-enrollment-ui] Reset password for a account without transactions in english",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I visit the reset password site in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I enter lifemiles number \"34343538902\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5940000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on Next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the three security question are completed in english",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the confirmation for reset password is validated in english",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1118000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1287",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-for-reset-password-scenario;[cypresscoverage][website-enrollment-ui]-reset-password-for-an-account-with-0-or-more-leading-zeros-in-spanish",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "[CypressCoverage][website-enrollment-ui] Reset password for an account with 0 or more leading zeros in spanish",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I visit the reset password site in language \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I enter lifemiles number \"05110733003\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6909000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I click on Next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the three security question are completed in spanish",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the confirmation for reset password is validated in spanish",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 15
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 15
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 15
+          },
+          {
+            "name": "@express",
+            "line": 15
+          },
+          {
+            "name": "@Enrollment",
+            "line": 15
+          },
+          {
+            "name": "@TEST_TS-1288",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-for-reset-password-scenario;[cypresscoverage][website-enrollment-ui]-reset-password-for-a-account-without-transactions-in-english-v2",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "[CypressCoverage][website-enrollment-ui] Reset password for a account without transactions in english v2",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I visit the reset password site in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I enter lifemiles number \"05110733003\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I click on Next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the three security question are completed in english v2",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the confirmation for reset password is validated in english",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 683000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 27
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 27
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 27
+          },
+          {
+            "name": "@express",
+            "line": 27
+          },
+          {
+            "name": "@Enrollment",
+            "line": 27
+          },
+          {
+            "name": "@TEST_TS-1289",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-for-reset-password-scenario;[cypresscoverage][website-enrollment-ui]-reset-password-for-an-account-with-3-failed-attempts",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "[CypressCoverage][website-enrollment-ui] Reset password for an account with 3 failed attempts",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I visit the reset password site in language \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I enter lifemiles number \"23213213200\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4717000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I click on Next button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Validate that the error message appears",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 39
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 39
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 39
+          },
+          {
+            "name": "@express",
+            "line": 39
+          },
+          {
+            "name": "@Enrollment",
+            "line": 39
+          },
+          {
+            "name": "@TEST_TS-1453",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-enrollment-ui]-validation-for-reset-password-scenario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-enrollment-ui] Validation for Reset Password Scenario",
+    "tags": [],
+    "uri": "cypress\\e2e\\ResetPassword.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-of-scenarios-for-password-recovery-using-2fa;[cypresscoverage][website-enrollment-ui]-password-recovery-for-an-account-with-2fa-enabled-using-the-google-authenticator-method-in-spanish",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "[CypressCoverage][website-enrollment-ui] Password recovery for an account with 2FA enabled using the Google Authenticator method in Spanish",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Select the password recovery option with Google Authenticator active for the language \"es\" and user \"43532646404\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The new password and its confirmation are entered in their respective fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3781000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "It is verified that the option to confirm identity is active in the language \"es\" and \"APP\" method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter the code 893934 generated by the authentication method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Press the password recovery button for the method \"APP\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Validate that the password change confirmation message in language \"es\" appears.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Press the close button to complete the password change flow.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6991000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1332",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-of-scenarios-for-password-recovery-using-2fa;[cypresscoverage][website-enrollment-ui]-password-recovery-for-an-account-with-2fa-enabled-using-the-google-authenticator-method-in-english",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "[CypressCoverage][website-enrollment-ui] Password recovery for an account with 2FA enabled using the Google Authenticator method in English",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Select the password recovery option with Google Authenticator active for the language \"en\" and user \"43532646404\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9438000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "The new password and its confirmation are entered in their respective fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "It is verified that the option to confirm identity is active in the language \"en\" and \"APP\" method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Enter the code 104834 generated by the authentication method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Press the password recovery button for the method \"APP\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Validate that the password change confirmation message in language \"en\" appears.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Press the close button to complete the password change flow.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4204000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 17
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 17
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 17
+          },
+          {
+            "name": "@express",
+            "line": 17
+          },
+          {
+            "name": "@Enrollment",
+            "line": 17
+          },
+          {
+            "name": "@TEST_TS-1331",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-of-scenarios-for-password-recovery-using-2fa;[cypresscoverage][website-enrollment-ui]-password-recovery-for-an-account-with-2fa-enabled-using-the-microsoft-authenticator-method-in-spanish",
+        "keyword": "Scenario Outline",
+        "line": 43,
+        "name": "[CypressCoverage][website-enrollment-ui] Password recovery for an account with 2FA enabled using the Microsoft Authenticator method in Spanish",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "Select the password recovery option with Microsoft Authenticator active in language \"es\" and user \"43532646404\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "The new password and its confirmation are entered in their respective fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4341000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "It is verified that the option to confirm identity is active in the language \"es\" and \"APP\" method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Enter the code 193400 generated by the authentication method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Press the password recovery button for the method \"APP\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Validate that the password change confirmation message in language \"es\" appears.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 909000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Press the close button to complete the password change flow.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7094000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 31
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 31
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 31
+          },
+          {
+            "name": "@express",
+            "line": 31
+          },
+          {
+            "name": "@Enrollment",
+            "line": 31
+          },
+          {
+            "name": "@TEST_TS-1334",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-of-scenarios-for-password-recovery-using-2fa;[cypresscoverage][website-enrollment-ui]-password-recovery-for-an-account-with-2fa-enabled-using-the-microsoft-authenticator-method-in-english",
+        "keyword": "Scenario Outline",
+        "line": 57,
+        "name": "[CypressCoverage][website-enrollment-ui] Password recovery for an account with 2FA enabled using the Microsoft Authenticator method in English",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "Select the password recovery option with Microsoft Authenticator active in language \"en\" and user \"43532646404\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "The new password and its confirmation are entered in their respective fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2879000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "It is verified that the option to confirm identity is active in the language \"en\" and \"APP\" method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "Enter the code 193400 generated by the authentication method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Press the password recovery button for the method \"APP\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Validate that the password change confirmation message in language \"en\" appears.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1056000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "Press the close button to complete the password change flow.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5408000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 45
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 45
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 45
+          },
+          {
+            "name": "@express",
+            "line": 45
+          },
+          {
+            "name": "@Enrollment",
+            "line": 45
+          },
+          {
+            "name": "@TEST_TS-1330",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-of-scenarios-for-password-recovery-using-2fa;[cypresscoverage][website-enrollment-ui]-password-recovery-for-an-account-with-2fa-enabled-using-the-sms-method-in-spanish",
+        "keyword": "Scenario Outline",
+        "line": 71,
+        "name": "[CypressCoverage][website-enrollment-ui] Password recovery for an account with 2FA enabled using the SMS method in Spanish",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "I select the option reset password with SMS method active \"es\", \"00843800300\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "The new password and its confirmation are entered in their respective fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3727000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "It is verified that the option to confirm identity is active in the language \"es\" and \"SMS\" method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "Enter the code 483743 generated by the authentication method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "Press the password recovery button for the method \"SMS\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "Validate that the password change confirmation message in language \"es\" appears.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 857000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "Press the close button to complete the password change flow.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6377000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 59
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 59
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 59
+          },
+          {
+            "name": "@express",
+            "line": 59
+          },
+          {
+            "name": "@Enrollment",
+            "line": 59
+          },
+          {
+            "name": "@TEST_TS-1335",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-enrollment-ui]-validation-of-scenarios-for-password-recovery-using-2fa;[cypresscoverage][website-enrollment-ui]-password-recovery-for-an-account-with-2fa-enabled-using-the-sms-method-in-english",
+        "keyword": "Scenario Outline",
+        "line": 85,
+        "name": "[CypressCoverage][website-enrollment-ui] Password recovery for an account with 2FA enabled using the SMS method in English",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 75,
+            "name": "I select the option reset password with SMS method active \"en\", \"00843800300\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "The new password and its confirmation are entered in their respective fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "It is verified that the option to confirm identity is active in the language \"en\" and \"SMS\" method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "Enter the code 843943 generated by the authentication method",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "Press the password recovery button for the method \"SMS\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 80,
+            "name": "Validate that the password change confirmation message in language \"en\" appears.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 996000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Press the close button to complete the password change flow.",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5516000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 73
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 73
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 73
+          },
+          {
+            "name": "@express",
+            "line": 73
+          },
+          {
+            "name": "@Enrollment",
+            "line": 73
+          },
+          {
+            "name": "@TEST_TS-1333",
+            "line": 73
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-enrollment-ui]-validation-of-scenarios-for-password-recovery-using-2fa",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-enrollment-ui] Validation of scenarios for password recovery using 2FA",
+    "tags": [],
+    "uri": "cypress\\e2e\\ResetPassword2FA.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-successfull-enrollment",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "[CypressCoverage][website-authentication-ui] Successfull enrollment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "avianca login and have it rendered in \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7584000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "check terms conditions and privacy policies",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click create account button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "complete password field in sign in",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "click on sign in button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3138000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1088",
+            "line": 3
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-successfull-enrollment",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "[CypressCoverage][website-authentication-ui] Successfull enrollment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "avianca login and have it rendered in \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1046000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "check terms conditions and privacy policies",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click create account button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "complete password field in sign in",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "click on sign in button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1088",
+            "line": 3
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-successfull-enrollment",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "[CypressCoverage][website-authentication-ui] Successfull enrollment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "avianca login and have it rendered in \"pt\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5652000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "check terms conditions and privacy policies",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click create account button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "complete password field in sign in",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "click on sign in button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3077000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1088",
+            "line": 3
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-successfull-enrollment",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "[CypressCoverage][website-authentication-ui] Successfull enrollment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "avianca login and have it rendered in \"fr\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "check terms conditions and privacy policies",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click create account button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "complete password field in sign in",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "click on sign in button and expect a successful response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2589000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@Enrollment",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1088",
+            "line": 3
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-existing-enrollment",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "[CypressCoverage][website-authentication-ui] Existing enrollment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "avianca login and have it rendered in \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 689000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "complete with existing email \"cesara.portillo@lifemiles.com\" and password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "check terms conditions and privacy policies",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "click create account button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Validate the error message \"El correo electrónico ya se encuentra asociado a una cuenta lifemiles\" for existing account",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 21
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 21
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 21
+          },
+          {
+            "name": "@express",
+            "line": 21
+          },
+          {
+            "name": "@Enrollment",
+            "line": 21
+          },
+          {
+            "name": "@smoke",
+            "line": 21
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 21
+          },
+          {
+            "name": "@TEST_TS-1456",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-existing-enrollment",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "[CypressCoverage][website-authentication-ui] Existing enrollment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "avianca login and have it rendered in \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "complete with existing email \"cesara.portillo@lifemiles.com\" and password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "check terms conditions and privacy policies",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "click create account button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Validate the error message \"The email provided is already linked to another lifemiles account\" for existing account",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 711000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 21
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 21
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 21
+          },
+          {
+            "name": "@express",
+            "line": 21
+          },
+          {
+            "name": "@Enrollment",
+            "line": 21
+          },
+          {
+            "name": "@smoke",
+            "line": 21
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 21
+          },
+          {
+            "name": "@TEST_TS-1456",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-do-not-accept-terms-and-conditions",
+        "keyword": "Scenario Outline",
+        "line": 47,
+        "name": "[CypressCoverage][website-authentication-ui] do not accept Terms and Conditions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "avianca login and have it rendered in \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "click create account button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Validate the error modal \"¡Espera! Antes de continuar\" and \"Acepta los Términos y condiciones del Programa lifemiles.\" when not selecting the Terms and Conditions checkboks",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 36
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 36
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@express",
+            "line": 36
+          },
+          {
+            "name": "@Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@smoke",
+            "line": 36
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-do-not-accept-terms-and-conditions",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "[CypressCoverage][website-authentication-ui] do not accept Terms and Conditions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "avianca login and have it rendered in \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5945000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "click create account button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Validate the error modal \"Wait! Before continuing\" and \"Accept the Terms and conditions of the lifemiles Program.\" when not selecting the Terms and Conditions checkboks",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 36
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 36
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@express",
+            "line": 36
+          },
+          {
+            "name": "@Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@smoke",
+            "line": 36
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-do-not-accept-terms-and-conditions",
+        "keyword": "Scenario Outline",
+        "line": 49,
+        "name": "[CypressCoverage][website-authentication-ui] do not accept Terms and Conditions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "avianca login and have it rendered in \"pt\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "click create account button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Validate the error modal \"Espere! Antes de continuar\" and \"Aceite os Termos e condições do Programa lifemiles.\" when not selecting the Terms and Conditions checkboks",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 36
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 36
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@express",
+            "line": 36
+          },
+          {
+            "name": "@Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@smoke",
+            "line": 36
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-do-not-accept-terms-and-conditions",
+        "keyword": "Scenario Outline",
+        "line": 50,
+        "name": "[CypressCoverage][website-authentication-ui] do not accept Terms and Conditions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "avianca login and have it rendered in \"fr\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "complete first name and last name field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 707000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "complete email and password fields",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "click create account button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Validate the error modal \"Attendez! Avant de continuer\" and \"Acceptez les Conditions générales du programme lifemiles.\" when not selecting the Terms and Conditions checkboks",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 36
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 36
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@express",
+            "line": 36
+          },
+          {
+            "name": "@Enrollment",
+            "line": 36
+          },
+          {
+            "name": "@smoke",
+            "line": 36
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-error-by-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 63,
+        "name": "[CypressCoverage][website-authentication-ui] Error by invalid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "avianca login and have it rendered in \"es\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "try to register with the wrong credentials of character length \"P\", \"A\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I validate that the inline error is displayed \"Caracteres insuficientes\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "Try to register with the wrong credentials with special characters \"P@43\", \"M@rroquin\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I validate that the inline error by special characters is displayed \"Ingresa un nombre válido\",\"Ingresa un apellido válido\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 52
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 52
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@express",
+            "line": 52
+          },
+          {
+            "name": "@Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@smoke",
+            "line": 52
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-error-by-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 64,
+        "name": "[CypressCoverage][website-authentication-ui] Error by invalid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "avianca login and have it rendered in \"en\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6950000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "try to register with the wrong credentials of character length \"S\", \"W\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I validate that the inline error is displayed \"Insufficient characters\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "Try to register with the wrong credentials with special characters \"T?_4\", \"Mart/df\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I validate that the inline error by special characters is displayed \"Enter a valid name\",\"Enter a valid last name\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 52
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 52
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@express",
+            "line": 52
+          },
+          {
+            "name": "@Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@smoke",
+            "line": 52
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-error-by-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 65,
+        "name": "[CypressCoverage][website-authentication-ui] Error by invalid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "avianca login and have it rendered in \"pt\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "try to register with the wrong credentials of character length \"O\", \"T\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I validate that the inline error is displayed \"Caracteres insuficientes\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "Try to register with the wrong credentials with special characters \"T?to\", \"Plete? \"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 906000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I validate that the inline error by special characters is displayed \"Insira um nome válido\",\"Insira um sobrenome válido\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 52
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 52
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@express",
+            "line": 52
+          },
+          {
+            "name": "@Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@smoke",
+            "line": 52
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca;[cypresscoverage][website-authentication-ui]-error-by-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 66,
+        "name": "[CypressCoverage][website-authentication-ui] Error by invalid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "avianca login and have it rendered in \"fr\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "click on register link",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "try to register with the wrong credentials of character length \"M\", \"P\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I validate that the inline error is displayed \"Caractères insuffisants\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "Try to register with the wrong credentials with special characters \"M@ar\", \"Maper_\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 829000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I validate that the inline error by special characters is displayed \"Veuillez saisir un prénom valide\",\"Veuillez saisir un nom de famille valide\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-enrollment-ui",
+            "line": 52
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 52
+          },
+          {
+            "name": "@AP_Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@express",
+            "line": 52
+          },
+          {
+            "name": "@Enrollment",
+            "line": 52
+          },
+          {
+            "name": "@smoke",
+            "line": 52
+          },
+          {
+            "name": "@AVSignIn",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-authentication-ui]-enrollment-avianca",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-authentication-ui] Enrollment Avianca",
+    "tags": [],
+    "uri": "cypress\\e2e\\SignInAVEnrollmentScenarios.feature"
+  }
+]
