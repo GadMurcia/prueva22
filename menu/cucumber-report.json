@@ -1,0 +1,134 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-menu-ui]-validacion-de-menu-en-secciones-varias-para-appmanager;[cypresscoverage][website-menu-ui]-menu-sin-inicio-de-sesion-en-app-manager",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "[CypressCoverage][website-Menu-ui] Menu sin inicio de sesion en app manager",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "go to homepage \"/\"",
+            "match": {
+              "location": "cypress/e2e/Menu-AppManager.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "validating that the menu is displayed correctly and checking your redirects",
+            "match": {
+              "location": "cypress/e2e/Menu-AppManager.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-menu-ui",
+            "line": 3
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 3
+          },
+          {
+            "name": "@AP_Integrator",
+            "line": 3
+          },
+          {
+            "name": "@express",
+            "line": 3
+          },
+          {
+            "name": "@app-manager",
+            "line": 3
+          },
+          {
+            "name": "@TEST_TS-1191",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "[cypresscoverage][website-menu-ui]-validacion-de-menu-en-secciones-varias-para-appmanager;[cypresscoverage][website-menu-ui]-menu-con-login-en-seccion--app-manager",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "[CypressCoverage][website-Menu-ui] Menu con login en seccion  app manager",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Log in with the \"00000898951\" and go to the \"account/profile\"",
+            "match": {
+              "location": "cypress/e2e/Menu-AppManager.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "validating that the menu is displayed correctly and checking your redirects with logged in user",
+            "match": {
+              "location": "cypress/e2e/Menu-AppManager.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@website-menu-ui",
+            "line": 12
+          },
+          {
+            "name": "@WebsiteCoverage",
+            "line": 12
+          },
+          {
+            "name": "@AP_Integrator",
+            "line": 12
+          },
+          {
+            "name": "@app-manager",
+            "line": 12
+          },
+          {
+            "name": "@TEST_TS-1197",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "[cypresscoverage][website-menu-ui]-validacion-de-menu-en-secciones-varias-para-appmanager",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "[CypressCoverage][website-menu-ui] Validacion de menu en secciones varias para appmanager",
+    "tags": [],
+    "uri": "cypress\\e2e\\Menu-AppManager.feature",
+    "executionUrl": "https://cloud.cypress.io/projects/jfgrbj/runs/331"
+  }
+]
